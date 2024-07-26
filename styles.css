@@ -1,0 +1,210 @@
+@import url(https://befonts.com/wp-content/uploads/2021/07/Agrandir-GrandHeavy.otf);
+@import url(https://befonts.com/wp-content/uploads/2021/07/Agrandir-GrandLight.otf;);
+@import url(https://befonts.com/wp-content/uploads/2021/07/Agrandir-Narrow.otf;);
+@import url(https://befonts.com/wp-content/uploads/2021/07/Agrandir-Regular.otf;);
+@import url(https://befonts.com/wp-content/uploads/2021/07/Agrandir-TextBold.otf;);
+@import url(https://befonts.com/wp-content/uploads/2021/07/Agrandir-ThinItalic.otf;);
+@import url(https://befonts.com/wp-content/uploads/2021/07/Agrandir-Tight.otf;);
+@import url(https://befonts.com/wp-content/uploads/2021/07/Agrandir-WideBlackItalic.otf;);
+@import url(https://befonts.com/wp-content/uploads/2021/07/Agrandir-WideLight.otf;);
+body{
+    font-size: 175%;
+}
+button{
+    background-color:rgb(233, 35, 101);
+    border: none;
+    border-radius: 4px;
+    padding: 5px 10px;
+    margin-left: 250px;
+    margin-top: 100px;
+    cursor: pointer;
+    color:white;
+    font-family: sans-serif;
+    transition: .1s;
+    margin-left: 600px;
+}
+button:hover{
+ transform: scale(1.3);
+ background-color: rgb(185, 42, 90);
+}
+button:active{
+    background-color:rgb(233, 35, 101);
+}
+.foodpanda{
+    width:120px;
+    height:22px;
+    margin-top:100px;
+    margin-bottom: 8px;
+    margin-left:  20px;
+    cursor: pointer;
+    transition: .1s;
+}
+.foodpanda:hover{
+    transform: scale(1.2);
+}
+.header{
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    height:140px;
+    display: flex;
+}
+.signup{
+    background-color:#fff;
+    color:rgb(233, 35, 101);
+    border: 1px solid rgb(233, 35, 101);
+    margin-left: 25px;
+}
+.signup:hover{
+    background-color:rgba(197, 41, 93, 0.476);
+}
+.signup:active{
+    background-color:rgba(197, 41, 93, 0.328);
+}
+header{
+    width:937px;
+    z-index: 1;
+    position: fixed;
+    top:0px;
+}
+.food{
+    background-color:#e4e4e4;
+    color:black;
+    font-family: Agrandir-GrandHeavy;
+    width:937px;
+    height:400px;
+    position: relative;
+}
+.food p{
+    margin-left: 50px;
+    font-size: 25px;
+}
+.prepare{
+    margin-left:50px;
+}
+.food input{
+    margin-bottom: 500px;
+    margin-left: 45px;
+    border: 1px solid black;
+    border-radius: 50px;
+    padding:15px 25px;
+    width:400px;
+}
+.information{
+    display:flex;
+}
+.button button{
+    margin-left:28px;
+    margin-top: -5px;
+    padding:15px 25px;
+    font-weight: 1000;
+}
+.list{
+    box-shadow: 5px 5px 20px rgb(120, 120, 120);
+}
+.list h1{
+    font-size: 25px;
+    margin-left:50px;
+}
+.list p{
+    margin-left:50px;
+    font-size:14px;
+}
+.list button{
+    margin-left: 50px;
+    margin-top: 1px;
+}
+h1{
+    font-size: 25px;
+    margin-left: 50px;
+}
+.islamabad img{
+    margin-left: 50px;
+}
+.islamabad span{
+    position: absolute;
+    background-color:#fff;
+    left:57px;
+}
+.karachi img{
+    margin-left: 50px;
+    width:275px;
+    height:183px;
+}
+.karachi span{
+    position: absolute;
+    background-color:#fff;
+    left:57px;
+}
+.lahore img{
+    width:275px;
+    height:183px;
+    margin-left: 50px;
+}
+.lahore span{
+    position: absolute;
+    background-color: #fff;
+    left: 57px;
+}
+.quetta img{
+    width:275px;
+    height:183px;
+    margin-left: 50px;
+}
+.quetta span{
+    position: absolute;
+    background-color: #fff;
+    left: 57px;
+}
+.multan img{
+    width:275px;
+    height:183px;
+    margin-left: 50px;
+}
+.multan span{
+    position: absolute;
+    background-color: #fff;
+    left: 57px;
+}
+.peshawar img{
+    width:275px;
+    height:183px;
+    margin-left: 50px;
+}
+.peshawar span{
+    position: absolute;
+    background-color: #fff;
+    left: 57px;
+}
+.download{
+    width:900px;
+    height:320px;
+}
+.list1{
+    box-shadow: 5px 5px 20px rgb(120, 120, 120);
+}
+.list1 h1{
+    font-size: 25px;
+    margin-left:50px;
+}
+.list1 p{
+    margin-left:50px;
+    font-size:14px;
+}
+.list1 button{
+    margin-left: 50px;
+    margin-top: 1px;
+}
+p {
+    font-size:14px;
+    margin-left: 50px;
+}
+li {
+    font-size:14px;
+    margin-left: 50px;
+}
+.footer{
+    background-color: black;
+    width:100%;
+    height:100%;
+    color:#fff;
+}
