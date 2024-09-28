@@ -9,6 +9,7 @@
 @import url(https://befonts.com/wp-content/uploads/2021/07/Agrandir-WideLight.otf;);
 body{
     font-size: 175%;
+    overflow-x: scroll;
 }
 button{
     background-color:rgb(233, 35, 101);
